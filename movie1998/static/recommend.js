@@ -15,7 +15,7 @@ $(function() {
     var my_api_key = 'e032c5470a281b9ffd3d4358c11cedcc';
     var title = $('.movie').val();
     if (title=="") {
-      $('.results').css('display','none');
+      $('.results')('display','none');
       $('.fail').css('display','block');
     }
     else{
